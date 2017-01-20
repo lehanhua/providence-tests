@@ -1,3 +1,6 @@
 <aura:component controller="componentOneController">
+	<aura:UnEscapedHTML value="what" /> <!-- should report -->
+	<aura:unescapedHTMLaaa value="what" /> <!-- should not report -->
 
+	<style src="http://example.com/css" />
 </aura:component>
